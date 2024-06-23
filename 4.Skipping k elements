@@ -1,0 +1,14 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int m,n,k,i;
+        System.out.println("Enter m, n and k: ");
+        m=sc.nextInt();
+        n=sc.nextInt();
+        k=sc.nextInt();
+        for(i=m;i<=n;i=i+k+1){
+            System.out.print(i+" ");
+        }
+    }
+}
