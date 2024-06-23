@@ -1,0 +1,26 @@
+import java.util.*;
+class LCMGCD{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a,b,lcm,gcd=1;
+        System.out.println("Enter a,b: ");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        for(int i=1;i<=a&& i<=b;i++){
+            if(a%i==0 &&b%i==0){
+                gcd=i;
+            }
+        }
+        lcm=(a*b)/gcd;
+        System.out.println("LCM= " +lcm);
+        System.out.println("GCD= "+ gcd);
+    }
+}
+
+Enter a,b: 
+5
+7
+LCM= 35
+GCD= 1
+
+=== Code Execution Successful ===
