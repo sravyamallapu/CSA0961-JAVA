@@ -1,0 +1,18 @@
+import java.util.*;
+class Multi
+{
+public static void main(String arg[])
+{
+int n,mul=1;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter number:");
+n=sc.nextInt();
+System.out.println("enter number:");
+int m=sc.nextInt();
+for(int i=1;i<=n;i++)
+{
+mul=i*m;
+System.out.println(i+"*"+m+"="+mul);
+}
+}
+}

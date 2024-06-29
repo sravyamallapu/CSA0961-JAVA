@@ -1,0 +1,13 @@
+
+class SquareCube
+{
+public static void main(String[] args)
+{
+double b,c;
+double a=0.6;
+b=Math.pow(a,2);
+c=Math.pow(a,3);
+System.out.println(b);
+System.out.println(c);
+}
+}
