@@ -1,0 +1,14 @@
+
+class Square
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+float b,c;
+float a=5.21;
+b=Math.pow(a,2);
+c=Math.pow(a,3);
+System.out.println(b);
+System.out.println(c);
+}
+}

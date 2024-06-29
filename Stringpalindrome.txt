@@ -1,0 +1,25 @@
+import java.util.*;
+class Palindromestring 
+{
+public static void main(String arg[])
+{
+String str="madam";
+char ch;
+String rev="";
+int n=str.length();
+int i;
+for(i=n-1;i>=0;i--)
+{
+ch=str.charAt(i);
+rev=rev+ch;
+}
+if(str.equals(rev))
+{
+System.out.println("palindrome:"+rev);
+}
+else
+{
+System.out.println("not palindrome:"+rev);
+}
+}
+}
