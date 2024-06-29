@@ -1,0 +1,36 @@
+import java.util.*;
+class Special
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+String str;
+int alp=0,low=0,num=0,spec=0;
+System.out.println("enter statement ");
+str=sc.nextLine();
+int n=str.length();
+int i;
+for(i=1;i<n;i++)
+{
+ char ch=str.charAt(i);
+ if(ch>='A' && ch<='Z')
+{
+ alp++;
+}
+else if(ch>='a'&&ch<='z')
+{ 
+ low++;
+}
+else if(ch>='0' && ch<='9')
+{
+num++;
+}
+else
+{ 
+ spec++;
+}
+}
+ System.out.println("special  characters " +spec);
+}
+}
+

@@ -1,0 +1,27 @@
+import java.util.*;
+class Overide
+{
+int r=5;
+double area;
+void get()
+{
+area=3.14*r*r;
+System.out.println("area of circle:"+area);
+}
+};
+class Cylinder extends Overide
+{
+int h=2;
+double a1;
+void display()
+{
+super.get();
+a1=3.14*h*r;
+System.out.println("area of cylinder:"+a1);
+}
+public static void main(String arg[])
+{
+Cylinder c=new Cylinder();
+c.display();
+}
+}
